@@ -81,10 +81,5 @@ your-portfolio/
 └── README.md
 ```
 
-## Customization
-
-- **Tailwind CSS:** Modify the `index.css` file or add custom classes to further tweak the design.
-- **Components:** Edit individual components in the `src/components/` folder to update content or styling.
-- **Sections:** Update content in the `src/components/sections/` directory to showcase your personal projects, about info, and contact details.
 
 
