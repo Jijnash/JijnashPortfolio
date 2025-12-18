@@ -3,13 +3,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
     "TypeScript",
     "TailwindCSS",
-    "Svelte",
+    "HTML5",
+    "CSS",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "SQL"];
 
   return (
     <section
@@ -69,39 +69,31 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.Tech in Computer Science Engineering</strong> - National Institute of Technology, Rourkela
+                  (2023-present)
+                </li>
+                
+                <li>
+                  <strong> Intermediate</strong>  - Tirumala Junior College, Rajahmundry (2021-2023)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> High School</strong>  - The Future Kids School, Rajahmundry (2021)
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <h3 className="text-xl font-bold mb-4"> Relevant Coursework </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
-                  </h4>
+                  
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    Data Structures, Web Development, Database
+                  Systems, Object-Oriented Programming, Algorithms, Operating
+                  Systems..
                   </p>
                 </div>
 
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
